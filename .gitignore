@@ -1,0 +1,4 @@
+# Ignore all mistakenly generated database files with sqlite3
+*.db
+# Track data of our main database
+!battery_data.db
