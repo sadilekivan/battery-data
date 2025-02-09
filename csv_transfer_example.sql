@@ -1,4 +1,4 @@
--- run in terminal `sqlite3 :memory: ".read test.sql"`
+-- You can run this in terminal `sqlite3 :memory: ".read csv_transfer_example.sql"`
 
 .read create_database.sql
 
