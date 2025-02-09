@@ -25,10 +25,3 @@ Even better:
 ```sh
 open battery-data.db | query db (open query_battery_pack_10s.sql)
 ```
-
-## SQL scripts
-
-I try to keep all the used sql statements persisted in scripts. These were mainly used in transfering all the battery related data from a csv file. `US18650V3.csv` -> `database`. You can test that with a nushell script:
-```sh
-nu csv_to_db.nu
-```
