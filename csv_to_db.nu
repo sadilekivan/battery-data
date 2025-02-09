@@ -1,4 +1,4 @@
-let database = 'battery-data.db.temp'
+let database = 'battery_data.db.temp'
 
 sqlite3 $database ".read create_database.sql"
 
