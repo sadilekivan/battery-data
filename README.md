@@ -11,17 +11,17 @@ The pack uses [Sony lion cells](https://secondlifestorage.com/index.php?pages/ce
 Query the battery pack with `query_battery_pack_10s.sql`
 
 ```sh
-sqlite3 battery-data.db ".mode box" ".read query_battery_pack_10s.sql"
+sqlite3 battery_data.db ".mode box" ".read query_battery_pack_10s.sql"
 ```
 
 Or with nushell:
 
 ```sh
-sqlite3 battery-data.db ".mode json" ".read query_battery_pack_10s.sql" | from json
+sqlite3 battery_data.db ".mode json" ".read query_battery_pack_10s.sql" | from json
 ```
 
 Even better:
 
 ```sh
-open battery-data.db | query db (open query_battery_pack_10s.sql)
+open battery_data.db | query db (open query_battery_pack_10s.sql)
 ```
